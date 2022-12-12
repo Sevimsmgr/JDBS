@@ -20,6 +20,8 @@ public class ExecuteUpdate01 {
         int updateEdilenSatirSayisi = st.executeUpdate(sql1);
         System.out.println("updateEdilenSatirSayisi = " + updateEdilenSatirSayisi);
 
+        System.out.println("---------------------------------------------");
+
         ResultSet resultSet1 = st.executeQuery("select * from companies");
 
         while (resultSet1.next()){
